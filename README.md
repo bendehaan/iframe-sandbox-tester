@@ -2,21 +2,14 @@
 
 These tests can be run to test what's allowed in the iframe sandbox you specify.
 
-Either use it by referencing this GitHub repository's [`gh-pages` instance](https://bendehaan.github.io/iframe-sandbox-tester/) or by cloning this repo and using it locally.
+The most reliable way to test this is to clone this repository and host the app and tester locally. Run your app like you normally would in development mode. Then, host this tester through e.g. Python or Node.
 
-
-## Using the repo directly
-
-## Local usage
-
-Clone the repository and serve it in a plain http server. Simple ways to to this are available in e.g. Python and Node.
-
-### Python
+## Python
 ```bash
 python3 -m http.server
 ```
 
-### Node
+## Node
 Using `serve` ([available via npm](https://www.npmjs.com/package/serve)):
 
 ```bash
